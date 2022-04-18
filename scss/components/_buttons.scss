@@ -5,15 +5,19 @@
 .btn {
     margin-top: 15px;
     width: 100%;
-    color: #fff;
+    color: $white;
     border: none;
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+    &:hover {
+      background-color: $lighter-blue;
+      transition: background-color .5s ease-out;
+    }
   }
   
   .default {
-    background-color: #51ddfc;
+    background-color: $light-blue;
   }
   
   .error {
@@ -21,7 +25,7 @@
   }
   
   .info {
-    background-color: #927bc1;
+    background-color: $light-purple;
   }
   
   .success {
